@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles.css">
+  <title>Trip Advisor</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#"><img class="logo-img" src="logo.png" alt="logo"></a>
+    </div>
+    <form class="search-form">
+      <input type="text" class="search-box" placeholder="Search Destinations">
+    </form>
+    <div class="hamburger-container">
+      <div class="hamburger">
+        <span class="bar"> </span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <span class="bar"></span>
+
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Honeymoon</a>
+        <div class="honeymoon-menu">
+          <div class="menu-content">
+            <div class="row">
+              <img src="card1.png" alt="">
+            </div>
+            <div class="row">
+              <ul class="honeymoon-menu-links">
+                <li><a href="">Agra</a></li>
+                <li><a href="">Munnar</a></li>
+                <li><a href="">Agra</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="honeymoon-menu-links">
+                <li><a href="">Munnar</a></li>
+                <li><a href="">Kahmir</a></li>
+                <li><a href="">Munnar</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="honeymoon-menu-links">
+                <li><a href="">Kashmir</a></li>
+                <li><a href="">Mumbai</a></li>
+                <li><a href="">Kashmir</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="honeymoon-menu-links">
+                <li><a href="">Mumbai</a></li>
+                <li><a href="">Agra</a></li>
+                <li><a href="">Mumbai</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="honeymoon-menu-links">
+                <li><a href="">Dubai</a></li>
+                <li><a href="">Fort Kochi</a></li>
+                <li><a href="">Dubai</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="honeymoon-menu-links">
+                <li><a href="">Fort Kochi</a></li>
+                <li><a href="">Dubai</a></li>
+                <li><a href="">Mumbai</a></li>
+              </ul>
+            </div>
+            <button class="view-all">View All</button>
+          </div>
+        </div>
+      </li>
+
+      <li><a href="#">Friends/Family</a></li>
+      <li><a href="#">Solo</a></li>
+      <li class="sign-in-button"><button type="button">Sign in</button></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="carousel-container">
+      <div class="carousel-item active" style="background-image: url('default1.png');">
+        <div class="carousel-text">
+          <h1>Explore the World</h1><br>
+          <p>Discover your dream Destinations</P>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('default2.png');">
+        <div class="carousel-text">
+          <h1>Explore the World</h1><br>
+          <p>Discover your dream Destinations</P>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('default3.png');">
+        <div class="carousel-text">
+          <h1>Explore the World</h1><br>
+          <p>Discover your dream Destinations</P>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('default4.png');">
+        <div class="carousel-text">
+          <h1>Explore the World</h1><br>
+          <p>Discover your dream Destinations</P>div>
+        </div>
+      </div>
+  </section>
+  <section class="cards-section">
+    <h2 class="centered-heading">Trending Getaways</h2>
+
+
+    <div class="swipe-buttons">
+      <button class="left-swipe"><i class='bx bx-left-arrow-circle'></i></button>
+      <button class="right-swipe"><i class='bx bx-right-arrow-circle'></i></button>
+    </div>
+
+    <div class="cards-container">
+      <div class="card">
+        <div class="card-1">
+          <img class="card-image" src="card1.png" alt="" />
+          <div class="card-text">
+            <h2 class="card-title">Munnar</h2>
+            <p class="card-subtitle">Town in Kerala</p>
+            <p class="mop">Members only price</p>
+            <p class="card-rating">
+              <span class="rating"><i class='bx bxs-star'></i>4.5</span>/5 (<span class="reviews">1k+</span>)
+            </p>
+            <div class="card-contents">
+              <p class="card-duration"><i class='bx bxs-time'></i>5 days or 6 nights</p>
+              <p class="card-food"><i class='bx bxs-bowl-rice'></i>Food Included</p>
+              <p class="card-trans"><i class='bx bxs-bus'></i>Transportation</p>
+              <p class="card-ticket"><i class='bx bx-briefcase'></i></i>All Tickets</p>
+            </div>
+            <p class="card-price"><span class="grey">From </span><span class="price">₹ 7500 </span><span
+                class="original-price">₹ 10000</span></p>
+            <button class="book-button">Quick Book</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-2">
+          <img class="card-image" src="card2.png" alt="" />
+          <div class="card-text">
+            <h2 class="card-title">Wayanand</h2>
+            <p class="card-subtitle">District in Kerala</p>
+            <p class="mop">Members only price</p>
+            <p class="card-rating">
+              <span class="rating"><i class='bx bxs-star'></i>4.5</span>/5 (<span class="reviews">1k+</span>)
+            </p>
+            <div class="card-contents">
+              <p class="card-duration"><i class='bx bxs-time'></i>5 days or 6 nights</p>
+              <p class="card-food"><i class='bx bxs-bowl-rice'></i>Food Included</p>
+              <p class="card-trans"><i class='bx bxs-bus'></i>Transportation</p>
+              <p class="card-ticket"><i class='bx bx-briefcase'></i></i>All Tickets</p>
+            </div>
+            <p class="card-price"><span class="grey">From </span><span class="price">₹ 7500 </span><span
+                class="original-price">₹ 10000</span></p>
+            <button class="book-button">Quick Book</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-3">
+          <img class="card-image" src="card3.png" alt="" />
+          <div class="card-text">
+            <h2 class="card-title">Kochi</h2>
+            <p class="card-subtitle">City in Kerala</p>
+            <p class="mop">Members only price</p>
+            <p class="card-rating">
+              <span class="rating"><i class='bx bxs-star'></i>4.5</span>/5 (<span class="reviews">1k+</span>)
+            </p>
+            <div class="card-contents">
+              <p class="card-duration"><i class='bx bxs-time'></i>5 days or 6 nights</p>
+              <p class="card-food"><i class='bx bxs-bowl-rice'></i>Food Included</p>
+              <p class="card-trans"><i class='bx bxs-bus'></i>Transportation</p>
+              <p class="card-ticket"><i class='bx bx-briefcase'></i></i>All Tickets</p>
+            </div>
+            <p class="card-price"><span class="grey">From </span><span class="price">₹ 7500 </span><span
+                class="original-price">₹ 10000</span></p>
+            <button class="book-button">Quick Book</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-4">
+          <img class="card-image" src="card4.png" alt="" />
+          <div class="card-text">
+            <h2 class="card-title">Alappuzha</h2>
+            <p class="card-subtitle">City in Kerala</p>
+            <p class="mop">Members only price</p>
+            <p class="card-rating">
+              <span class="rating"><i class='bx bxs-star'></i>4.5</span>/5 (<span class="reviews">1k+</span>)
+            </p>
+            <div class="card-contents">
+              <p class="card-duration"><i class='bx bxs-time'></i>5 days or 6 nights</p>
+              <p class="card-food"><i class='bx bxs-bowl-rice'></i>Food Included</p>
+              <p class="card-trans"><i class='bx bxs-bus'></i>Transportation</p>
+              <p class="card-ticket"><i class='bx bx-briefcase'></i></i>All Tickets</p>
+            </div>
+            <p class="card-price"><span class="grey">From </span><span class="price">₹ 7500 </span><span
+                class="original-price">₹ 10000</span></p>
+            <button class="book-button">Quick Book</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-first">
+        <div class="footer-logo">
+          <img src="logo.png" alt="Footer Logo">
+        </div>
+        <div class="first-text">
+          <p>Embark on a journey where every step is a story, and every destination is a chapter waiting to be written
+          </p>
+        </div>
+        <div class="footer-icons">
+          <a href="#"> <i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Cancelation and refund policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <p class="newsletter-text">Unleash the magic of exploration straight to your inbox</p>
+        <div class="footer-input">
+          <input type="email" placeholder="Enter your mail id">
+          <button type="submit">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
